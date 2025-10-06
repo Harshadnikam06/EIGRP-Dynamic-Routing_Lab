@@ -1,2 +1,42 @@
 # EIGRP-Dynamic-Routing_Lab
 CCNA EIGRP Dynamic Routing Lab using Cisco Packet Tracer. Includes step-by-step configuration, ping tests, and network topology
+
+## Objective
+- Learn and implement EIGRP dynamic routing across multiple routers.
+- Verify connectivity using ping and troubleshooting techniques.
+
+## Tools
+- Cisco Packet Tracer
+- Microsoft Word (documentation)
+- Screenshots / Images for topology and ping tests
+
+## Commands Used
+- router eigrp 1
+- network [ip address]
+- show ip route
+- ping
+
+## Testing & Verification
+- Ping tests between routers to confirm connectivity.
+- Show ip route output confirms correct dynamic routing.
+
+## Files
+- EIGRP Lab.pkt → Packet Tracer file
+- EIGRP Lab Documentation.pdf → Step-by-step guide
+
+## Observations / Challenges
+- Partial connectivity – occurred when one router’s network was not 
+advertised in EIGRP. 
+   Solution: Added missing network with network <IP>. 
+
+- Routing table not updating – caused by duplicate IP addressing 
+between two routers. 
+   Solution: Changed conflicting IP addresses and re-established 
+adjacency.
+
+## Documentation
+- The complete step-by-step configuration and observations are available in the PDF below:
+ [RIP Documentation.pdf](https://github.com/user-attachments/files/22694705/RIP.Documentation.pdf)
+
+## Topology Image
+<img width="1365" height="713" alt="Image" src="https://github.com/user-attachments/assets/1e411593-1226-4e1c-8ae3-47afb309edc1" />
