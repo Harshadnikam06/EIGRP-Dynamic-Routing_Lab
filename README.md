@@ -36,7 +36,8 @@ adjacency.
 
 ## Documentation
 - The complete step-by-step configuration and observations are available in the PDF below:
- [RIP Documentation.pdf](https://github.com/user-attachments/files/22694705/RIP.Documentation.pdf)
+[EIGRP Lab Documentation.pdf](https://github.com/user-attachments/files/22714960/EIGRP.Lab.Documentation.pdf)
 
 ## Topology Image
-<img width="1365" height="713" alt="Image" src="https://github.com/user-attachments/assets/1e411593-1226-4e1c-8ae3-47afb309edc1" />
+
+<img width="1919" height="996" alt="Image" src="https://github.com/user-attachments/assets/00d506bd-91bf-44ea-9aa2-08aec0c59169" />
